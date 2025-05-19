@@ -1,11 +1,11 @@
-class Chameleom
+class Chameleon
   def recolor(color)
-   puts "Теперь я #{(color)}"
+    puts "Now I'm #{color}"
   end
 end
 
-chameleom = Chameleom.new
+chameleon = Chameleon.new
 
-chameleom.recolor('красный')
-chameleom.recolor('белый')
-chameleom.recolor('синий')
+chameleon.recolor('red')
+chameleon.recolor('white')
+chameleon.recolor('blue')
